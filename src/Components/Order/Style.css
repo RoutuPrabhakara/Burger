@@ -101,6 +101,9 @@
     font-weight: bold;
     color: black;
 }
+.Location-Name p{
+    white-space: nowrap;
+}
 
 
 
