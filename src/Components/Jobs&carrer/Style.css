@@ -1,0 +1,54 @@
+.jobs{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300%;
+    height: 300%;
+
+}
+.jobs h1{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.open{
+    margin-top: 50px;
+    color:rgba(248, 123, 143, 0.979);
+    margin-left: 80px;
+}
+.Availbility-jobs{
+    display: flex;
+    justify-content:left;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px rgba(209, 200, 200, 0.664);
+    width: 300px;
+    height: 300px; */
+}
+.Availbility-left{
+/* display: flex;
+justify-content: center; */
+
+width: 250px;
+height:150px;
+box-shadow: 0px 0px 10px rgb(216, 136, 136);
+margin-left: 30px;
+
+text-align: center;
+line-height: 30px;
+border-radius: 10px;
+padding: 20px;
+}
+
+.Availbility-right{
+    width: 250px;
+    height:150px;
+    box-shadow: 0px 0px 10px rgb(216, 136, 136);
+    margin-left: 30px;
+    
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}

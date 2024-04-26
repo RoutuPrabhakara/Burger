@@ -1,0 +1,44 @@
+
+.Franchise-main-heading{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px  rgb(233, 226, 226);
+
+} 
+.Franchise-images img{
+    width: 100%;
+}
+.Franchise-Card{
+    padding: 20px;
+    background-color:#BDCDE9;
+    color: white;
+    margin-top: 20px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Button-Detials{
+    width: 170px;
+    text-align: center;
+    background-color:purple; 
+    color:white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+   
+    
+}
+sup{
+    color: red;
+}
+.Franchise-para{
+    font-weight: bold;
+}
+.Franchise-Form{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

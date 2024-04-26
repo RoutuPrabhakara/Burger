@@ -1,0 +1,106 @@
+.Order-Card{
+    text-align: center;
+}
+.Order-Card h2{
+    padding: 20px;
+}
+.Order-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+.Order-img img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.Order-Burger{
+    margin-top:10px;
+}
+.Order-Burger p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Order-search{
+    display:flex;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgb(238, 231, 231);
+    margin-bottom: 20px;
+    border-radius: 100px;
+    
+}
+.Order-search input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    color: black;
+}
+.Locate{
+    background-color:purple;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-right:20px;
+    border-radius: 30px;
+    margin-top: 10px;
+   
+}
+.Location-Data{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.location-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.location-card img{
+    width: 100px;
+}
+.location-card p{
+    font-weight: bold;
+    padding: 10px;
+}
+.location-card button{
+    align-self: flex-end;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color:black;
+    background-color: transparent;
+}
+.location-card button:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+.Recent-serch{
+    display: flex;
+    justify-content: center;
+}
+.Search-input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.Search-input input{
+    width: fit-content;
+    border-radius:10px;
+    border:1px solid purple;
+    
+}
+.Search-input placeholder{
+    font-weight: bold;
+    color: black;
+}
+
+
+

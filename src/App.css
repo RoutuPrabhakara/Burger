@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.blur-container{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 30px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hide{
+  visibility: hidden;
+}
+.blur-container .card{
+  width: 380px;
+  min-height: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+.card-heading{
+  font-size: 1.3rem;
+}
+.close{
+  border: none;
+  font-size: 1.4rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #3d3c3c59;
+  border-radius: 100px;
+  cursor: pointer;
+  color: #fff;
+}
+.close:hover{
+  opacity: 0.5;
+}
+.card-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.error{
+  padding: 8px;
+  background-color: #ff236c1f;
+  font-size: 0.8rem;
+  color: #ee0e33;
+  width: fit-content;
+  border-radius: 5px;
+}
+.btns{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.btns button{
+  border: none;
+  padding: 10px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+  flex: 1;
+ white-space: nowrap;
+ width: 100%;
+}
+.outline-btn{
+  border: 2px solid #6f2b82 !important;
+  color: #6f2b82;
+  background-color: transparent;
+}
+.solid-btn{
+  background-color: #6f2b82;
+  color: #fff;
+}
+.card img{
+  width: 100px;
+  opacity: 0.6;
+}
+@media (max-width:576px){
+  .btns{
+    flex-wrap: wrap;
+  }
+}
+.AboutName{
+  background-color: rgba(255, 192, 203, 0.514);
+  text-align: center;
+  margin-left: 30px;
+}
+.AboutName h1{
+  text-align: center;
+  justify-content: center;
+  color: blue;
+}
+.WhyUs{
+  display: flex;
+  background-color: #ccccccf5;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Why-left{
+  text-align: left;
+  margin-left: 30px;
+}
+.Why-left h1{
+  color: blue;
+}
+
+.Visual h1{
+  text-align: center;
+  justify-content: center;
+  color:rgba(114, 50, 61, 0.87) ;
+  
+}
+.Visualization{
+  display: flex;
+  text-align:right;
+  justify-content: center;
+  
+}
+.Visual-growth{
+  padding: 30px;
+  background-color: #ccccccf5;
+}
+.Visual-growth h1{
+  color: blue;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Visual-growth-left{
+    flex: 1;
+    line-height: 2;
+  
+}
+.Visual-inner{
+  display: flex;
+  align-items: center;
+}
+.Visual-growth-right{
+  margin-bottom: 50px;
+  flex: 1;
+}
+.Visual-growth-right img{
+  width: 100%;
+}
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color:rgba(0, 0, 255, 0.575) ;
+  padding: 10px;
+  color: #fff;
+}
+footer h1{
+  font-size: 1.3rem;
+  color: #fff;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+footer a{
+  color: #fff;
+}
+.Bottom{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgba(0, 0, 255, 0.589);
+
+}
+.Bottom span{
+  color: green;
+}
+
+.Customer-Favourite{
+  background-color: rgba(255, 192, 203, 0.664);
+}
+.Customer-Favourite h1{
+  text-align: center;
+  justify-content: center;
+  color: rgba(224, 22, 56, 0.836);
+}
+.Customers-images{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.Customers-images img{
+  width: 190px;
+}
+.images-folder h5{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.image{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Club-App{
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+.Club-Image{
+ display: flex;
+ gap: 20px;
+}
+.Club-left{
+  flex: 1;
+}
+.Club-right{
+  flex: 1;
 }
