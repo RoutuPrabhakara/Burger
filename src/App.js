@@ -10,6 +10,7 @@ import View from './Components/View/View'
 import Franchise from './Components/Frachise/Franchise'
 import Jobs from './Components/Jobs&carrer/Jobs'
 import Order from './Components/Order/Order'
+import Online_order from './Components/Online_order/Online_order'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Route path='/frachise' element = {<Franchise/>}/>
       <Route path='/jobs' element = {<Jobs/>}/>
       <Route path='/Order' element = {<Order/>}/>
+      <Route path='/Online' element = {<Online_order/>}/>
       
       </Routes>
       <Footer/>

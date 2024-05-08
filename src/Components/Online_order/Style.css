@@ -1,0 +1,511 @@
+.Online_order{
+    display: flex;
+    
+    
+}
+/* .Online_order:hover{
+    cursor: pointer;
+    background-color:rgba(175, 97, 110, 0.432);
+} */
+
+.Online_order_left{
+    flex: 1;
+    min-height: 100vh;
+    background-color:rgb(230, 207, 177);
+    
+ }
+ .Online_order_left:hover{
+    background-color:rgb(207, 191, 194);
+    cursor: pointer;
+ }
+ .Categories_item{
+    color: rgba(88, 17, 221, 0.685);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+.Categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.Categories img{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+   
+    
+    
+}
+.Categories span{
+    color: rgba(241, 10, 45, 0.897);
+}
+.Online_Food_Item img{
+    width: 50px;
+    height: 50px;
+}
+
+.Online_Food_Item{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.Online_Food_Item span{
+    color: rgb(247, 10, 45);
+}
+
+.Online_order_Middle{
+    /* flex: 2; */
+    height: 100vh;
+    background-color:white;
+    padding: 30px;
+    overflow: auto;
+}
+.online_order_middle_img_1{
+    display: flex;
+}
+.online_order_middle_img img{
+    width: 80px;
+    height: 80px;
+}
+.m-card-top{
+    display: flex;
+    justify-content: space-between;
+}
+.online_order_middle_Burger_bottom{
+    display: flex;
+    gap: 20px;
+  
+}
+.online_order_middle_Burger_club i{
+margin-top: 20px;
+color: white;
+background-color: green;
+text-align: center;
+
+
+}
+.online_order_middle_Burger_star{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+.online_order_middle_Burger_star i{
+    color: yellow;
+}
+.online_order_middle_Burger_bottom_line{
+    text-align:flex;
+    justify-content: center;
+    
+}
+.online_order_middle_Burger_bottom_line img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.Card-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    width: 250px;
+   margin-bottom: 20px;
+    box-shadow: rgba(170, 97, 97, 0.877) 0px 2px 8px 0px;
+   
+   
+}
+.Card-1 img{
+    background-color: #f50f67af;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  
+}
+.Card-2{
+    margin-top: 30px;
+}
+.f1{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Burger-Card{
+    display: flex;
+    gap: 20px;
+}
+.main-top-card{
+    /* width:800px; */
+    height: 200px;
+    box-shadow: 0px 0px 10px rgb(230, 188, 188);
+}
+.Online_search_Card{
+    display: flex;
+   /* width: 800px; */
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #ccc;
+    justify-content: space-between;
+
+
+}
+.Online_search_Value{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+}
+.Online_search_Card input{
+    border: none;
+    outline: none;
+    width: 300px;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}
+.Online_search_Card i{
+    display: flex;
+    align-items: center;
+}
+.Online_search_Card_right{
+    display: flex;
+     gap: 50px;
+    justify-content: right;
+   
+   
+   
+}
+.Non-Veg{
+    width:80px;
+    height: 30px;
+    margin-right: 10px;
+   background-color:white;
+   color: black;
+   border-radius: 8px;
+   text-align: center;
+   margin-top: 10px;
+}
+.Veg1{
+    width:80px;
+    height: 30px;
+    margin-right: 10px;
+   background-color:white;
+   color: black; 
+   border-radius: 8px;
+   text-align: center;
+   margin-top: 10px;
+}
+.Feature_card_cell img{
+    width: 250px;
+    height: 250px;
+}
+.Feature_card_cell h3{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.Data_Storing {
+   display: flex; 
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   min-width: 350px;
+   height: 200px;
+   padding: 10px;
+   align-items: center;
+   border-radius: 10px;
+   
+}
+.Data_Storing h5{
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+.Data_Storing p{
+    margin-top: 5px;
+}
+.Data_item{
+    flex: 1;
+}
+.Data_item1{
+    flex: 1;
+    position: relative;
+}
+.Data_item1 img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 160px;
+}
+.Data_item1 button{
+    position: absolute;
+    left:50%;
+    bottom:-10px;
+    transform: translateX(-50%);
+    border: 1.5px solid rgb(62, 1, 97);
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(62, 1, 97);
+    text-align: center;
+    border-radius: 6px;
+    
+}
+.food-item-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+h3{
+    margin-top: 20px;
+}
+.Data_items{
+    flex: 1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 350px;
+    height: 150px;
+    line-height: normal;
+    margin-top: 20px;
+    padding: 10px;
+    height: fit-content;
+    
+}
+.Data_item_3 i{
+font-size: 20px;
+
+color: yellow;
+gap: 2px;
+}
+.Data_item_3 h4{
+    margin-bottom: 10px;
+}
+
+.Data_item_4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.Data_item_4 button{
+    width: 100px;
+    
+    font-size: 18px;
+    border: 1 solid px #ccc;
+    background-color:white;
+    font-weight: bold;
+    color:purple;
+    
+}
+.devider{
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Data_Folder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+    margin-top:20px;
+}
+.Data_items_images img{
+    /* width:100%; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 160px;
+
+}
+.Data_items_images{
+    flex: 1;
+    position: relative;
+}
+.Data_items_images button{
+    position: absolute;
+    left:50%;
+    bottom:-10px;
+    transform: translateX(-50%);
+    border: 1.5px solid rgb(62, 1, 97);
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(62, 1, 97);
+    text-align: center;
+    border-radius: 6px;
+}
+.data_f_card{
+    width: 350px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    line-height: normal;
+}
+.Data_item_Folder i{
+    color: yellow;
+    font-size: 20px;
+    gap: 2px;
+}
+.Must_Tray_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+    margin-top:20px;
+}
+.Must_folder_item{
+    width: 350px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    line-height: normal;
+    height: fit-content;
+}
+
+.Must_Tray_img1 img{
+   width: 180px;
+   height: 180px;
+   margin-top: 30px;
+   margin-left: 10px;
+}
+.Must_Tray_img1{
+    flex: 1;
+    position: relative;
+}
+.Must_Tray_img1 button{
+    position: absolute;
+    left:50%;
+    bottom:-10px;
+    transform: translateX(-50%);
+    border: 1.5px solid rgb(62, 1, 97);
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(62, 1, 97);
+    text-align: center;
+    border-radius: 6px;
+}
+.devider{
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Burger_items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.Veg{
+    color: rgba(30, 6, 248, 0.658);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Burger_veg_1{
+    width: 350px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    line-height: normal;
+    height: fit-content;
+    align-items: center;
+    
+}
+.Burger_1{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Burger_1 p{
+    font-size: 0.8rem;
+}
+.Burger_veg_1 img{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.Burger_veg_1 button{
+    position: absolute;
+    left:50%;
+    bottom:-10px;
+    transform: translateX(+70%);
+    border: 1.5px solid rgb(62, 1, 97);
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(62, 1, 97);
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+
+.Online_order_right{
+    flex: 2;
+    /* min-width: 400px; */
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    
+}
+
+.Online_order_right_Card{
+    box-shadow: 0px 0px 10px lightslategray;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+
+}
+.Your_cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Your_card_button button{
+    display: flex;
+    font-size: 20px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(63, 0, 99);
+    color:rgb(255, 255, 255);
+    border: none;
+ 
+   
+}
+.Your_card_para{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    gap: 5px;
+   
+}
+.Your_cart_para{
+    flex: 4;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bdb9b9;
+    padding: 10px 0px;
+}

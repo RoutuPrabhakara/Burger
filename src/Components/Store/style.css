@@ -55,7 +55,7 @@
     color: #fff;
 }
 .dark-btn{
-    background-color: #0c0c0c;
+    /* background-color: #0c0c0c; */
     text-decoration: none;
     color: #fff;
     padding: 10px;
@@ -70,4 +70,8 @@
 }
 .blue-btn{
     width: 130px;
+}
+.dark-btn{
+    background-color: #5f0aa5;
+    color: white;
 }

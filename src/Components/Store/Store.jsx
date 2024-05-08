@@ -33,7 +33,7 @@ function Store() {
                     <p>Z9 First Floor  Nazafgarkh  Rd Bloock  Rajpuri garden </p>
                     <div className="item-btns">
                     <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                      <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ function Store() {
                     <p>Ground Floor Shop Num 32 Haryana</p>
                     <div className="item-btns">
                     <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                    <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ function Store() {
                     <p>E-56 metro piller Vikhas Nagar Delhi</p>
                     <div className="item-btns">
                     <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                    <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ function Store() {
                     <p>E-56 metro piller Vikhas Nagar Noida</p>
                     <div className="item-btns">
                     <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                    <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ function Store() {
                     <p>E-56 metro piller saroji Nagar Delhi</p>
                     <div className="item-btns">
                     <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                    <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ function Store() {
                     <p>E-56 metro piller Dwaraka Nagar Delhi</p>
                     <div className="item-btns">
                     <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                    <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ function Store() {
                     <p>E-56 metro piller GTB Nagar Delhi</p>
                     <div className="item-btns">
                       <a href='/view' className="dark-btn">View Store</a>
-                      <button className="blue-btn">Online Order</button>
+                      <a href="/Online" className='dark-btn'>Online Order</a>
                     </div>
                   </div>
                 </div>

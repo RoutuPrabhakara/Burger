@@ -6,9 +6,9 @@ function View() {
     <div >
         
 <section className='order'>
-  <div className="order-left">
-      <div className='Burger-Card'>
-        <div className='Burger-item-card'>
+  <div className="order-left1">
+      <div className='Burger-Card2'>
+        <div className='Burger-item-card_cell'>
       <img src="https://www.uengage.in/images/addo/logos/logo-29124-1689661084.png" alt="" />
       
       <div className='Burger-club-h1'>

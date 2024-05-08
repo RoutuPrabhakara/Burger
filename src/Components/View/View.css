@@ -3,13 +3,13 @@
     display: flex;
     gap: 20px;
 }
-.order-left{
+.order-left1{
     flex: 1;
     
     min-height: 100vh;
     
 }
-.Burger-Card{
+.Burger-Card2{
    background-color:white;
    box-shadow: 0px 0px 10px #ccc;
    padding: 20px;
@@ -17,11 +17,11 @@
    
   
 }
-.Burger-item-card{
+.Burger-item-card_cell{
     display: flex;
    
 }
-.Burger-Card img{
+.Burger-item-card_cell img{
    
     width: 60px;
     height: 60px;
